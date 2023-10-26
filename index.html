@@ -18,27 +18,27 @@
         arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;" id="scene" embedded gesture-detector>
         <a-assets>
             <a-asset-item id="courstar" src="assets/courstar.glb"></a-asset-item>
-
+        </a-assets><a-assets>
 
 
             <a-asset-item id="house" src="assets/house.glb"></a-asset-item>
-
+        </a-assets><a-assets>
 
             <a-asset-item id="katakata" src="assets/katakata.glb"></a-asset-item>
-
+        </a-assets><a-assets>
             <a-asset-item id="pukka" src="assets/pukka.glb"></a-asset-item>
 
-
+        </a-assets><a-assets>
 
             <a-asset-item id="spaceshattle" src="assets/spaceshattle.glb"></a-asset-item>
 
-
+        </a-assets><a-assets>
             <a-asset-item id="tan" src="assets/tan.glb"></a-asset-item>
-
+        </a-assets><a-assets>
 
             <a-asset-item id="hwheel" src="assets/hwheel.glb"></a-asset-item>
 
-
+        </a-assets><a-assets>
             <a-asset-item id="ywheel" src="assets/ywheel.glb"></a-asset-item>
         </a-assets>
 
@@ -57,7 +57,7 @@
         </a-marker>
 
 
-        <a-marker id="animated-marker" type="pattern" preset="custom" url="assets/katakata.patt"
+        <a-marker id="katakata" type="pattern" preset="custom" url="assets/katakata.patt"
             raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerC">
             <a-entity id="bowser-model" scale="0.04666666666666666 0.04666666666666666 0.04666666666666666"
                 animation-mixer="loop: repeat" //gltf-model="#animated-asset" gltf-model="katakata" class="clickable"
@@ -65,15 +65,15 @@
         </a-marker>
 
 
-        <a-marker id="animated-marker" type="pattern" preset="custom" url="assets/pukka.patt"
-            raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerD">
+        <a-marker id="pukka" type="pattern" preset="custom" url="assets/pukka.patt" raycaster="objects: .clickable"
+            emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerD">
             <a-entity id="bowser-model" scale="0.04666666666666666 0.04666666666666666 0.04666666666666666"
                 animation-mixer="loop: repeat" //gltf-model="#animated-asset" gltf-model="pukka" class="clickable"
                 gesture-handler></a-entity>
         </a-marker>
 
 
-        <a-marker id="animated-marker" type="pattern" preset="custom" url="assets/spaceshattle.patt"
+        <a-marker id="spaceshattle" type="pattern" preset="custom" url="assets/spaceshattle.patt"
             raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerE">
             <a-entity id="bowser-model" scale="0.04666666666666666 0.04666666666666666 0.04666666666666666"
                 animation-mixer="loop: repeat" //gltf-model="#animated-asset" gltf-model="#spaceshattle"
@@ -81,24 +81,24 @@
         </a-marker>
 
 
-        <a-marker id="animated-marker" type="pattern" preset="custom" url="assets/tan.patt"
-            raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerF">
+        <a-marker id="tan" type="pattern" preset="custom" url="assets/tan.patt" raycaster="objects: .clickable"
+            emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerF">
             <a-entity id="bowser-model" scale="0.04666666666666666 0.04666666666666666 0.04666666666666666"
                 animation-mixer="loop: repeat" //gltf-model="#animated-asset" gltf-model="#tan" class="clickable"
                 gesture-handler></a-entity>
         </a-marker>
 
 
-        <a-marker id="animated-marker" type="pattern" preset="custom" url="assets/hwheel.patt"
-            raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerG">
+        <a-marker id="hwheel" type="pattern" preset="custom" url="assets/hwheel.patt" raycaster="objects: .clickable"
+            emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerG">
             <a-entity id="bowser-model" scale="0.04666666666666666 0.04666666666666666 0.04666666666666666"
                 animation-mixer="loop: repeat" //gltf-model="#animated-asset" gltf-model="hwheel" class="clickable"
                 gesture-handler></a-entity>
         </a-marker>
 
 
-        <a-marker id="animated-marker" type="pattern" preset="custom" url="assets/ywheel.patt"
-            raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerH">
+        <a-marker id="ywheel" type="pattern" preset="custom" url="assets/ywheel.patt" raycaster="objects: .clickable"
+            emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerH">
             <a-entity id="bowser-model" scale="0.04666666666666666 0.04666666666666666 0.04666666666666666"
                 animation-mixer="loop: repeat" //gltf-model="#animated-asset" gltf-model="#ywheel" class="clickable"
                 gesture-handler></a-entity>
