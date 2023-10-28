@@ -32,6 +32,21 @@ src="assets/spaceshattle.glb"
 ></a-asset-item>
 </a-assets>
 
+<a-assets>
+    <a-asset-item
+    id="pukka"
+    src="assets/pukka.glb"
+   ></a-asset-item>
+  
+  </a-assets>
+
+  <a-assets>
+    <a-asset-item
+    id="tan"
+    src="assets/tan.glb"
+    ></a-asset-item>
+    </a-assets>
+    
 
 
 
@@ -50,26 +65,6 @@ src="assets/spaceshattle.glb"
                     scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
                     animation-mixer="loop: repeat"
                     gltf-model="#courstar"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
-
-            <a-marker
-                id="animated-markerB"
-                type="pattern"
-                preset="custom"
-                url="assets/house.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerB"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#house"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
@@ -95,7 +90,50 @@ src="assets/spaceshattle.glb"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
+
+
             </a-marker>
+
+            <a-marker
+                id="animated-markerD"
+                type="pattern"
+                preset="custom"
+                url="assets/pukka.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerE"
+            >
+                <a-entity
+                    id="bowser-model"
+                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#pukka"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+            </a-marker>
+
+            <a-marker
+                id="animated-markerG"
+                type="pattern"
+                preset="custom"
+                url="assets/tan.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerG"
+            >
+                <a-entity
+                    id="bowser-model"
+                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#tan"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+            </a-marker>
+
 
             <a-entity camera></a-entity>
         </a-scene>
