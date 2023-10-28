@@ -25,34 +25,6 @@
                 ></a-asset-item>
              </a-assets>
 
-        <a-assets>
-                <a-asset-item
-                id="house"
-                src="assets/house.glb"
-            ></a-asset-item>
-        </a-assets>
-
-        <a-assets>
-            <a-asset-item
-            id="hwheel"
-            src="assets/hwheel.glb"
-        ></a-asset-item>
-    </a-assets>
-
-        <a-assets>
-        <a-asset-item
-        id="katakata"
-        src="assets/katakata.glb"
-    ></a-asset-item>
-</a-assets>
-
-    <a-assets>
-    <a-asset-item
-    id="pukka"
-    src="assets/pukka.glb"
-></a-asset-item>
-</a-assets>
-
 <a-assets>
 <a-asset-item
 id="spaceshattle"
@@ -60,19 +32,7 @@ src="assets/spaceshattle.glb"
 ></a-asset-item>
 </a-assets>
 
-<a-assets>
-<a-asset-item
-id="tan"
-src="assets/tan.glb"
-></a-asset-item>
-</a-assets>
 
-<a-assets>
-<a-asset-item
-    id="ywheel"
-    src="assets/ywheel.glb"
-></a-asset-item>
-</a-assets>
 
 
             <a-marker
@@ -115,65 +75,7 @@ src="assets/tan.glb"
                 ></a-entity>
             </a-marker>
 
-            <a-marker
-                id="animated-markerB"
-                type="pattern"
-                preset="custom"
-                url="assets/hwheel.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerC"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#hwheel"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
-
-            <a-marker
-                id="animated-markerC"
-                type="pattern"
-                preset="custom"
-                url="assets/katakata.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerD"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#katakata"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
-
-            <a-marker
-                id="animated-markerD"
-                type="pattern"
-                preset="custom"
-                url="assets/pukka.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerE"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#pukka"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
+            
 
             <a-marker
                 id="animated-markerF"
@@ -190,46 +92,6 @@ src="assets/tan.glb"
                     scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
                     animation-mixer="loop: repeat"
                     gltf-model="#spaceshattle"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
-
-            <a-marker
-                id="animated-markerG"
-                type="pattern"
-                preset="custom"
-                url="assets/tan.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerG"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#tan"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
-
-            <a-marker
-                id="animated-markerH"
-                type="pattern"
-                preset="custom"
-                url="assets/ywheel.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerH"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="0.25873104933910784 0.25873104933910784 0.25873104933910784"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#ywheel"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
