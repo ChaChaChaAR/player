@@ -115,6 +115,13 @@ src="assets/spaceshattle.glb"
                 ></a-asset-item>
             </a-assets>
         
+            <a-assets>
+                <a-asset-item
+                    id="wheel"
+                    src="assets/hwheel.glb"
+                ></a-asset-item>
+            </a-assets>
+        
 
 
 
@@ -242,6 +249,25 @@ src="assets/spaceshattle.glb"
         ></a-entity>
     </a-marker>
 
+    <a-marker
+    id="animated-markerH"
+    type="pattern"
+    preset="custom"
+    url="assets/hwheel.patt"
+    raycaster="objects: .clickable"
+    emitevents="true"
+    cursor="fuse: false; rayOrigin: mouse;"
+    id="markerH"
+>
+<a-entity
+id="bowser-model"
+scale="0.12467735752605244 0.12467735752605244 0.12467735752605244"
+animation-mixer="loop: repeat"
+gltf-model="#hwheel"
+class="clickable"
+gesture-handler
+></a-entity>
+</a-marker>
     
 
 
